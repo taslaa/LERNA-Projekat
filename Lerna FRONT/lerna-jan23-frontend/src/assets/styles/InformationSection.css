@@ -1,0 +1,16 @@
+.info-name{
+    font-size: calc(1.255rem + 0.06vw);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--bs-heading-color, inherit);
+}
+.info-details{
+  font-family: "Poppins", sans-serif;
+
+}
+.row-info{
+margin-bottom:0;
+}

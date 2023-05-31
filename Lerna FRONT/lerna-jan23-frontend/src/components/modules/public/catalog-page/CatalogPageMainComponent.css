@@ -1,0 +1,142 @@
+.page-content{
+    display: flex;
+    width: 100%;
+    column-gap:10%;
+    margin-left: 0px;
+}
+.card.border.p-4{
+    background-color: rgb(246,246,246);
+    width: max-content;
+}
+.driver-info{
+   display: flex;
+   margin-top: 0%;
+   margin-left: 3%;
+   padding-top: 2.5%;
+   justify-content:flex-end;
+   height: fit-content;
+   width: fit-content;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.driver-info-more{
+    display: flex;
+    justify-content:flex-end;
+    width: fit-content;
+    height: 10%;
+}
+.col-sm-6.col-md-4.colxl-6{
+    width: fit-content;
+    padding-top: 5%;
+    height: fit-content;
+}
+.col-sm-6.col-md-4.col-xl-3.text-sm-end{
+    margin-top: 0%;
+    padding: 0%;
+    justify-content: flex-end;
+}
+
+.list-inline.mb-0{
+   text-align: end;
+}
+#driver-photo{
+    border-radius: 100%;
+    padding-top: 4%;
+    height: 110%;
+}
+.py-5{
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+}
+.col-sm-6.col-md-4.col-xl-3.text-sm-end{
+    display:flex;
+    width: fit-content;
+}
+.departure-time{
+    flex-direction: row;
+    margin-right: 8%;
+}
+.date-car{
+    flex-direction: row;
+}
+.list-inline.mb-1-1{
+ margin: 10%;
+ margin-left: 0%;
+ text-align: left;
+ width: 100%;
+}
+.list-inline.mb-1{
+    justify-content: space-between;
+    width: fit-content;
+}
+.card-title{
+    height: fit-content;
+    margin: 0% !important;
+    width: fit-content;
+    padding-bottom: 8%;
+}
+.card.border.p-4{
+    padding-left: 1.6rem !important;
+}
+.row.g-2.g-sm-4{
+    justify-content:flex-start;
+    padding-top: 2%;
+    padding-left: 2%;
+    
+}
+label{
+    margin-bottom: 5%;
+    margin-right: 5%;
+    
+}
+.left-side{
+    width: 42%;
+    margin-left: 0% !important;
+}
+.card-title.mb-2{
+    width: fit-content;
+}
+.ul-lable{
+    margin-right: 20%;
+    width: fit-content;
+}
+.user-ride-info{
+    display: flex;
+    width:90%;
+    justify-content: flex-end;
+    margin-top:22%;
+    
+}
+.conditions,.price{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.conditions{
+    margin-right: 20%;
+}
+.bg-light.rounded-3.px-4.py-5{
+    width: 100%;
+    padding-right:0% !important;  
+}
+.row.g-2.g-sm-4{
+    width: 110%
+}
+.list-inline-item.h5.mb-0{
+    font-weight: 200;
+}
+.card.border.p-4{
+   border-color: transparent !important;
+   border-bottom-color: rgb(146, 15, 205) !important;
+   border-bottom-width: 6px !important;
+}
+h5 > a:hover,h4 > a:hover{
+    color:  rgb(146, 15, 205) !important;
+}
+.row{
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.col-xl-3{
+    width: 35%;
+

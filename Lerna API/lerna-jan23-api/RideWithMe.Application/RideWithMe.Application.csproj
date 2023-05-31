@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.106.5" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Graph.Core" Version="3.0.3" />
+    <PackageReference Include="VisioForge.DotNet.Core.TRIAL" Version="15.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RideWithMe.Application.Interfaces\RideWithMe.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\RideWithMe.Common.Services\RideWithMe.Common.Services.csproj" />
+    <ProjectReference Include="..\RideWithMe.Core\RideWithMe.Core.csproj" />
+    <ProjectReference Include="..\RideWithMe.Infrastructure\RideWithMe.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
